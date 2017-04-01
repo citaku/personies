@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: personies
+  host: personies
+  disk_quota: 1024M
+  services:
+  - availability-monitoring-auto
+  - mysql
+  - Personality Insights-Personies
+  - Conversation-Personies
